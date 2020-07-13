@@ -180,7 +180,7 @@
 
     	    var resize_timer;
 
-            $(window).resize(
+            $(window).on("resize",
             	$.proxy(function()
             	{
             		clearTimeout(resize_timer);
